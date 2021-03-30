@@ -3,7 +3,7 @@
 //Gold
 ItemDisplay[GOLD<200 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<70)]:
-ItemDisplay[GOLD<5000]:
+ItemDisplay[GOLD<1001]:
 
 //Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%Full
@@ -69,7 +69,7 @@ ItemDisplay[bey]: %PURPLE%Baal's Eye
 ItemDisplay[mbr]: %PURPLE%Mephisto's Brain
 
 //Utility
-ItemDisplay[tsc]:
+ItemDisplay[tsc]: %BLUE%TP Scroll
 ItemDisplay[isc]:
 ItemDisplay[wms]:
 ItemDisplay[yps]:
@@ -562,8 +562,8 @@ ItemDisplay[NMAG WP8 ELT !ETH !INF !RW SOCKETS=5]: %DARK_GREEN%%NAME%%WHITE%[%GR
 ItemDisplay[NMAG WP8 ELT ETH !INF !RW SOCKETS=0]: %PURPLE%ETH %DARK_GREEN%%NAME%%WHITE%[%GRAY%%SOCKETS%%WHITE%] {%WHITE%Attack rate: %YELLOW%%STAT-68%}
 ItemDisplay[NMAG WP8 ELT ETH !INF !RW SOCKETS=4]: %PURPLE%ETH %DARK_GREEN%%NAME%%WHITE%[%GRAY%%SOCKETS%%WHITE%] {%WHITE%Attack rate: %YELLOW%%STAT-68% %NL%%TEAL%Infinty%WHITE%: %TAN%Ber%WHITE%|%TAN%Mal%WHITE%|%TAN%Ber%WHITE%|%TAN%Ist %NL%%TEAL%Pride%WHITE%: %TAN%Cham%WHITE%|%TAN%Sur%WHITE%|%TAN%Io%WHITE%|%TAN%Lo}
 ItemDisplay[NMAG WP8 ELT ETH !INF !RW SOCKETS=5]: %PURPLE%ETH %DARK_GREEN%%NAME%%WHITE%[%GRAY%%SOCKETS%%WHITE%] {%WHITE%Attack rate: %YELLOW%%STAT-68% %NL%%TEAL%Doom%WHITE%: %TAN%Hel%WHITE%|%TAN%Ohm%WHITE%|%TAN%Um%WHITE%|%TAN%Lo%WHITE%|%TAN%Cham}
-ItemDisplay[NMAG WP8 !ELT !INF !RW CLVL<60 SOCKETS=4]: %WHITE%%NAME%[%GRAY%%SOCKETS%%WHITE%] {%WHITE%Attack rate: %YELLOW%%STAT-68% %NL%%TEAL%Insight%WHITE%: %TAN%Ral%WHITE%|%TAN%Tir%WHITE%|%TAN%Tal%WHITE%|%TAN%Sol}
-ItemDisplay[NMAG WP8 !ELT !INF !RW CLVL<60 SOCKETS=5]: %WHITE%%NAME%[%GRAY%%SOCKETS%%WHITE%] {%WHITE%Attack rate: %YELLOW%%STAT-68% %NL%%TEAL%Obedience%WHITE%: %TAN%Hel%WHITE%|%TAN%Ko%WHITE%|%TAN%Thul%WHITE%|%TAN%Eth%WHITE%|%TAN%Fal}
+ItemDisplay[NMAG WP8 !ELT !INF !RW SOCKETS=4]: %WHITE%%NAME%[%GRAY%%SOCKETS%%WHITE%] {%WHITE%Attack rate: %YELLOW%%STAT-68% %NL%%TEAL%Insight%WHITE%: %TAN%Ral%WHITE%|%TAN%Tir%WHITE%|%TAN%Tal%WHITE%|%TAN%Sol}
+ItemDisplay[NMAG WP8 !ELT !INF !RW SOCKETS=5]: %WHITE%%NAME%[%GRAY%%SOCKETS%%WHITE%] {%WHITE%Attack rate: %YELLOW%%STAT-68% %NL%%TEAL%Obedience%WHITE%: %TAN%Hel%WHITE%|%TAN%Ko%WHITE%|%TAN%Thul%WHITE%|%TAN%Eth%WHITE%|%TAN%Fal}
 //Bows
 ItemDisplay[SUP WP9 !INF ELT !ETH !RW SOCKETS=0 TABSK0>2]: %RED%Ø %DARK_GREEN%%NAME%%WHITE%[%GRAY%%SOCKETS%%WHITE%] %RED%+%BLUE%Bow Skills %RED%Ø
 ItemDisplay[SUP WP9 !INF ELT !ETH !RW SOCKETS>3 TABSK0>2]: %RED%Ø %DARK_GREEN%%NAME%%WHITE%[%GRAY%%SOCKETS%%WHITE%] %RED%+%BLUE%Bow Skills %RED%Ø
@@ -596,7 +596,7 @@ ItemDisplay[NMAG WP11 !INF !RW SOCKETS=4 SK59>2]: %DARK_GREEN%%NAME%%WHITE%[%GRA
 ItemDisplay[NMAG WP11 !INF !RW SOCKETS=0 SK64>2]: %DARK_GREEN%%NAME%%WHITE%[%GRAY%%SOCKETS%%WHITE%] %RED%+%BLUE%Frozen Orb
 ItemDisplay[NMAG WP11 !INF !RW SOCKETS=4 SK64>2]: %DARK_GREEN%%NAME%%WHITE%[%GRAY%%SOCKETS%%WHITE%] %RED%+%BLUE%Frozen Orb
 ItemDisplay[NMAG WP11 !wst !8ws !6ws !RW CLVL>59 PRICE>24999]: %WHITE%[%TAN%%PRICE%%WHITE%]
-ItemDisplay[NMAG WP11 !wst !8ws !6ws !RW (CLVL>19 AND CLVL<60) PRICE>9999]: %WHITE%[%TAN%%PRICE%%WHITE%]
+ItemDisplay[NMAG WP11 !wst !8ws !6ws !RW PRICE>9999]: %WHITE%[%TAN%%PRICE%%WHITE%]
 ItemDisplay[NMAG WP11 !INF !RW CLVL<20]: %WHITE%%NAME%[%GRAY%%SOCKETS%%WHITE%]
 //Wands
 ItemDisplay[NMAG WP12 !INF !RW SOCKETS=2 SK84=3]: %DARK_GREEN%%NAME%%WHITE%[%GRAY%%SOCKETS%%WHITE%] %RED%+%BLUE%Bonespear
@@ -618,7 +618,7 @@ ItemDisplay[NMAG WEAPON !RW]:
 
 //Charms //No large charms after 60
 ItemDisplay[MAG cm1 !ID]: %RED%Ø %BLUE%Small Charm%GRAY%[%WHITE%%ILVL%%GRAY%] %RED%Ø
-ItemDisplay[MAG cm2 !ID CLVL<60]: %BLUE%Large Charm
+ItemDisplay[MAG cm2 !ID]: %BLUE%Large Charm
 ItemDisplay[MAG cm2 !ID] :
 ItemDisplay[MAG cm3 !ID]: %RED%Ø %BLUE%Grand Charm%GRAY%[%WHITE%%ILVL%%GRAY%] %RED%Ø
 
